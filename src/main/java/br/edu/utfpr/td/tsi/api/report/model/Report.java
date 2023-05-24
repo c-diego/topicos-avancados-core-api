@@ -39,7 +39,7 @@ public class Report {
 
     @JsonProperty("partes")
     @Column(nullable = true)
-    private String[] parts;
+    private String parts;
 
     @JsonProperty("localOcorrencia")
     @NotEmpty(message = "{field.required}")
